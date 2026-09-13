@@ -4,11 +4,11 @@
 body {
   font-family: "Segoe UI", Roboto, sans-serif;
   margin: 0;
-  background: #f4f7fb;
+  background: #f5f6f2;
   color: #253238;
 }
 header {
-  background: linear-gradient(120deg, #04AA6D, #058457);
+  background: linear-gradient(120deg, #eeff00, #c83c00);
   color: #fff;
   padding: 60px 20px;
   text-align: center;
@@ -27,11 +27,27 @@ section {
 }
 section h2 {
   margin-top: 0;
-  color: #000;
+  color: #367cec;
 }
 footer {
   padding: 24px;
   text-align: center;
   background: #d6daf8;
   font-size: 0.9rem;
+}
+a:hover { 
+ text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+h1 {
+  color:#954600;
+  text-decoration: none;
+}
+blockquote {
+background: #3cff00;
+font-style: italic;
+border-left: #253238;
 }
